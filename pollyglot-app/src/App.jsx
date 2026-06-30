@@ -46,7 +46,7 @@ export default function App() {
     setError("");
   }
   return (
-    <div className='min-h-screen flex items-center justify-center p-4 bg-blue-300/30'>
+    <div className='min-h-screen p-10 bg-blue-300/30'>
       {showPage ?
         <TranslateForm
           onTranslate={handleTranslate}

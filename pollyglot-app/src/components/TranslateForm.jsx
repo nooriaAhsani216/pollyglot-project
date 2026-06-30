@@ -33,7 +33,7 @@ export default function TranslateForm({
   };
 
   return (
-    <div className="flex items-center justify-center p-4">
+    <div>
       <div className="w-full max-w-sm mx-auto bg-white shadow-2xl overflow-hidden border border-gray-100">
         <Header />
         <form onSubmit={handleSubmit} className="p-6 space-y-6">

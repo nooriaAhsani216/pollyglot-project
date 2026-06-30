@@ -27,7 +27,7 @@ export default function App() {
       });
 
       if (!response.ok) {
-        throw new Error("Translation failed");
+        throw new Error("Please try a moment later");
       }
       const result = await response.json();
       setOriginalText(text);
@@ -46,7 +46,7 @@ export default function App() {
     setError("");
   }
   return (
-    <div className='min-h-screen bg-blue-300/30'>
+    <div className='min-h-screen flex items-center justify-center p-4 bg-blue-300/30'>
       {showPage ?
         <TranslateForm
           onTranslate={handleTranslate}

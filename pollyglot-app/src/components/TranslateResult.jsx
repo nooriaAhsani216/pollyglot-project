@@ -8,7 +8,7 @@ export default function TranslateResult({
   const boxStyle =
     "w-full min-h-24 bg-[#f4f6fb]  text-gray-800 font-medium border border-gray-200 rounded-xl p-3";
   return (
-    <div className=" flex items-center justify-center p-4">
+    <div>
       <div  className="w-full max-w-sm mx-auto bg-white shadow-2xl overflow-hidden border border-gray-100">
         <Header />
         <div className="p-6 space-y-5">
